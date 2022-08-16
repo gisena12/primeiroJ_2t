@@ -53,3 +53,34 @@ overflow:0;
 
   color: aliceblue;
  }
+ #urso {
+
+  width: 10%;
+ }
+ .caixaGato {
+  position: absolute;
+  top: 45px;
+  background: rgb(180, 26, 26);
+   width: 90%;
+   height: 165px;
+   margin: 20px;
+   border-color: cadetblue;
+   border-width: 20px ;
+   border-style: double;
+   padding: 20px;
+   display: flex;
+   justify-content:flex-start;
+
+ }
+
+ .caixaGato2 {
+  position: absolute;
+  top: 0px;
+  right: 0%;
+   width: 300px;
+   height: 165px;
+   margin: 20px;
+   display: flex;
+   justify-content:end;
+
+ }
