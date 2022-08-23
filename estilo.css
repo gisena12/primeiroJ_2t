@@ -55,14 +55,14 @@ overflow:0;
 
   color: aliceblue;
  }
- #urso {
+ #livro {
 
   width: 10%;
  }
- .caixaGato {
+ .caixaLivros {
   position: absolute;
   top: 45px;
-  background: rgb(180, 26, 26);
+  background: rgb(26, 180, 72);
    width: 90%;
    height: 165px;
    margin: 20px;
@@ -75,15 +75,16 @@ overflow:0;
 
  }
 
- .caixaGato2 {
+ .caixaLivros2 {
   position: absolute;
-  top: 0px;
+  top: 45px;
   right: 0%;
-   width: 300px;
+   width: 90%
    height: 165px;
    margin: 20px;
    display: flex;
-   justify-content:end;
+   justify-content:end 
+   
 
  }
  .rodape {
