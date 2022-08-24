@@ -7,29 +7,12 @@ body {
 h1{
   text-align: center;
 }
- caixa1 {
-   position: absolute;
-   background-attachment: grey
-   width: 200px;
-   height: 200px;
-   left: 78%
-   right: 0%
-   bottom:
- }
- caixa2 {
-   position: absolute;
-   background-attachment: blue 
-   width: 200px;
-   height: 200px;
-   left: 78%
-   right: 0
-   bottom:12
- } 
+ 
  .menuPrincipal {
-  width: ;
+  width: 100%;
   background: whitesmoke;
-  top:0%
-  left:0%
+  top:0;
+  left:0;
  }
 
  nav ul {
@@ -70,23 +53,20 @@ overflow:0;
    border-width: 20px ;
    border-style: double;
    padding: 20px;
-   display: flex;
-   justify-content:flex-start;
+ } 
 
+ .lv1 {
+     position: absolute;
+     right: 0;
+     top: 45px;
  }
-
- .caixaLivros2 {
+ .lv2 {
   position: absolute;
+  left: 0;
   top: 45px;
-  right: 0%;
-   width: 90%
-   height: 165px;
-   margin: 20px;
-   display: flex;
-   justify-content:end 
-   
+}
 
- }
+
  .rodape {
 position: absolute;
 bottom: 0%;
